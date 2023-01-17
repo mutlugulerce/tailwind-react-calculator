@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button {
+	appearance: none;
+	outline: none;
+	border: none;
+	color: #FFF;
+	padding: 16px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.4s;
+}
